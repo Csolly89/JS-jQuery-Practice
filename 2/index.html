@@ -10,8 +10,12 @@
 
 <body>
     <p>Please Input your Name:</p>
-    <input type="text" name="name">
+    <input type="text" name="name" id="name-input">
     <input id="buttonName" type="button" value="Click to set name" />
 </body>
-
+    <script>
+        $("#buttonName"). click(function(){
+             $("#name-input").val('new value');
+        })
+    </script>
 </html>

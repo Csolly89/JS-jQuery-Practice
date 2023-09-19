@@ -19,5 +19,9 @@
 <body>
     <input type="button" value="Click to add new div tag" onclick="createDiv()" />
 </body>
-
+    <script>
+        function createDiv(){
+        $("<div>New Div</div>").appendTo("body")
+        }
+        </script>
 </html>
